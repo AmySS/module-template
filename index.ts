@@ -1,4 +1,4 @@
 
-const middleware = require('./lib/index').default
+const testModule = require('./lib/index').default
 
-module.exports = middleware
+module.exports = testModule
