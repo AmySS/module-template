@@ -1,0 +1,40 @@
+{
+  "name": "module-template",
+  "version": "1.0.0",
+  "description": "module template",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.esm.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest --bail --forceExit",
+    "build": "rm -rf dist && tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmySS/module-template.git"
+  },
+  "keywords": [
+    "typescript",
+    "npm",
+    "module",
+    "template"
+  ],
+  "author": "sukie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmySS/module-template/issues"
+  },
+  "homepage": "https://github.com/AmySS/module-template#readme",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "^25.3.0",
+    "ts-jest": "^25.3.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/node": "^13.11.1"
+  }
+}
