@@ -6,8 +6,3 @@ A boilerplate project of NPM Module
 ## ✨ 特性
 * using typescript
 * unit tests with jest
-
-## Todo
-* lint
-* Conventional commit
-* standard version
